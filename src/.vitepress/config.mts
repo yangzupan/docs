@@ -43,176 +43,176 @@ export default defineConfig({
     ],
     // 侧边栏目录
     sidebar:{
-      '/coding/':[
-        {
-          text: '阅读',
-          collapsed: false,
-          items: [
-            {
-              text: '读书',
-              collapsed: true,
-              items: [
-                { text: '通识读物', link: '/read/book/general/' },
-                { text: '阅人', link: '/read/people/' },
-                { text: '看事', link: '/read/thing/' },
-              ]
-            },
-            {
-              text: '读书',
-              items: [
-                { text: '通识读物', link: '/read/book/general/' },
-                { text: '阅人', link: '/read/people/' },
-                { text: '看事', link: '/read/thing/' },
-              ]
-            },
-          ]
-        },
+      // '/coding/':[
+      //   {
+      //     text: '阅读',
+      //     collapsed: false,
+      //     items: [
+      //       {
+      //         text: '读书',
+      //         collapsed: true,
+      //         items: [
+      //           { text: '通识读物', link: '/read/book/general/' },
+      //           { text: '阅人', link: '/read/people/' },
+      //           { text: '看事', link: '/read/thing/' },
+      //         ]
+      //       },
+      //       {
+      //         text: '读书',
+      //         items: [
+      //           { text: '通识读物', link: '/read/book/general/' },
+      //           { text: '阅人', link: '/read/people/' },
+      //           { text: '看事', link: '/read/thing/' },
+      //         ]
+      //       },
+      //     ]
+      //   },
 
-      ],
+      // ],
 
-      '/about/': [
-        {
-          text: '关于',
-          items: [
-            { text: '关于攀哥', link: '/about/me.md' },
-            { text: '关于本站', link: '/about/website.md' },
-            { text: '关于捐助', link: '/about/contribution.md' },
-            { text: '贡献指南', link: '/about/contribution-guide.html' },
-            { text: '错误反馈', link: '/about/error-feedback.html' },
-            { text: '版权协议', link: '/about/copyright.html' },
-            { text: '隐私政策', link: '/about/privacy.html' },
-            { text: '更新日志', link: '/about/logs.html' },
-            // { text: '友情链接', link: '/about/link.html' },
-          ]
-        }
-      ],
-      '/':[
-        {
-          text: '阅读',
-          collapsed: true,
-          items: [
-            {
-              // text: '读书',
-              items: [
-                { text: '读书', link: '/read/book/' },
-                { text: '阅人', link: '/read/people/' },
-                { text: '看事', link: '/read/thing/' },
-              ]
-            },
-          ]
-        },
-        {
-          text: '编程',
-          collapsed: true,
-          items: [
-            {
-              // text: '读书',
-              items: [
-                { text: '基础', link: '/coding/basis/' },
-                { text: '前端', link: '/coding/front/' },
-                { text: '后端', link: '/coding/back/' },
-                { text: '运维', link: '/coding/devops/' },
-                { text: '大数据', link: '/coding/bigdata/' },
-                { text: 'AI', link: '/coding/ai/' },
-              ]
-            },
-          ]
-        },
-        {
-          text: '折腾',
-          collapsed: true,
-          items: [
-            {
-              // text: '读书',
-              items: [
-                { text: '硬件', link: '/geek/hardware/' },
-                { text: '软件', link: '/geek/software/' },
-                { text: '云服务', link: '/geek/cloud-service/' },
-                { text: 'Web 服务', link: '/geek/web/' },
-              ]
-            },
-          ]
-        },
-        {
-          text: '写作',
-          collapsed: true,
-          items: [
-            {
-              // text: '写作',
-              items: [
-                { text: '事业', link: '/write/' },
-              ]
-            },
-          ]
-        },
-        {
-          text: '事业',
-          collapsed: true,
-          items: [
-            {
-              // text: '事业',
-              items: [
-                { text: '事业', link: '/career/' },
-              ]
-            },
-          ]
-        },
-        {
-          text: '生活',
-          collapsed: true,
-          items: [
-            {
-              // text: '生活',
-              items: [
-                { text: '经验', link: '/life/experience/' },
-                { text: '感悟', link: '/life/apperception/' },
-              ]
-            },
-          ]
-        },
-        {
-          text: '更多',
-          collapsed: true,
-          items: [
-            {
-              text: '导航',
-              items: [
-                { text: '软件', link: '/nav/software/' },
-                { text: '编程', link: '/nav/coding/' },
-                { text: '学习', link: '/nav/study/' },
-              ]
-            },
-            {
-              text: '资源',
-              items: [
-                { text: '软件', link: '/resource/software/' },
-                { text: '字体', link: '/resource/font/' },
-                { text: '图标', link: '/resource/icon/' },
-              ]
-            },
-            {
-              text: '文档',
-              items: [
-                { text: '文档', link: '/docs/' },
-              ]
-            },
-            {
-              text: '关于',
-              items: [
-                { text: '关于攀哥', link: '/about/me.md' },
-                { text: '关于本站', link: '/about/website.md' },
-                { text: '关于捐助', link: '/about/contribution.md' },
-                { text: '贡献指南', link: '/about/contribution-guide.html' },
-                { text: '错误反馈', link: '/about/error-feedback.html' },
-                { text: '版权协议', link: '/about/copyright.html' },
-                { text: '隐私政策', link: '/about/privacy.html' },
-                { text: '更新日志', link: '/about/logs.html' },
-                { text: '友情链接', link: '/about/link.html' },
-              ]
-            },
-          ]
-        },
-      ]
+      // '/about/': [
+      //   {
+      //     text: '关于',
+      //     items: [
+      //       { text: '关于攀哥', link: '/about/me.md' },
+      //       { text: '关于本站', link: '/about/website.md' },
+      //       { text: '关于捐助', link: '/about/contribution.md' },
+      //       { text: '贡献指南', link: '/about/contribution-guide.html' },
+      //       { text: '错误反馈', link: '/about/error-feedback.html' },
+      //       { text: '版权协议', link: '/about/copyright.html' },
+      //       { text: '隐私政策', link: '/about/privacy.html' },
+      //       { text: '更新日志', link: '/about/logs.html' },
+      //       // { text: '友情链接', link: '/about/link.html' },
+      //     ]
+      //   }
+      // ],
+      // '/':[
+      //   {
+      //     text: '阅读',
+      //     collapsed: true,
+      //     items: [
+      //       {
+      //         // text: '读书',
+      //         items: [
+      //           { text: '读书', link: '/read/book/' },
+      //           { text: '阅人', link: '/read/people/' },
+      //           { text: '看事', link: '/read/thing/' },
+      //         ]
+      //       },
+      //     ]
+      //   },
+      //   {
+      //     text: '编程',
+      //     collapsed: true,
+      //     items: [
+      //       {
+      //         // text: '读书',
+      //         items: [
+      //           { text: '基础', link: '/coding/basis/' },
+      //           { text: '前端', link: '/coding/front/' },
+      //           { text: '后端', link: '/coding/back/' },
+      //           { text: '运维', link: '/coding/devops/' },
+      //           { text: '大数据', link: '/coding/bigdata/' },
+      //           { text: 'AI', link: '/coding/ai/' },
+      //         ]
+      //       },
+      //     ]
+      //   },
+      //   {
+      //     text: '折腾',
+      //     collapsed: true,
+      //     items: [
+      //       {
+      //         // text: '读书',
+      //         items: [
+      //           { text: '硬件', link: '/geek/hardware/' },
+      //           { text: '软件', link: '/geek/software/' },
+      //           { text: '云服务', link: '/geek/cloud-service/' },
+      //           { text: 'Web 服务', link: '/geek/web/' },
+      //         ]
+      //       },
+      //     ]
+      //   },
+      //   {
+      //     text: '写作',
+      //     collapsed: true,
+      //     items: [
+      //       {
+      //         // text: '写作',
+      //         items: [
+      //           { text: '事业', link: '/write/' },
+      //         ]
+      //       },
+      //     ]
+      //   },
+      //   {
+      //     text: '事业',
+      //     collapsed: true,
+      //     items: [
+      //       {
+      //         // text: '事业',
+      //         items: [
+      //           { text: '事业', link: '/career/' },
+      //         ]
+      //       },
+      //     ]
+      //   },
+      //   {
+      //     text: '生活',
+      //     collapsed: true,
+      //     items: [
+      //       {
+      //         // text: '生活',
+      //         items: [
+      //           { text: '经验', link: '/life/experience/' },
+      //           { text: '感悟', link: '/life/apperception/' },
+      //         ]
+      //       },
+      //     ]
+      //   },
+      //   {
+      //     text: '更多',
+      //     collapsed: true,
+      //     items: [
+      //       {
+      //         text: '导航',
+      //         items: [
+      //           { text: '软件', link: '/nav/software/' },
+      //           { text: '编程', link: '/nav/coding/' },
+      //           { text: '学习', link: '/nav/study/' },
+      //         ]
+      //       },
+      //       {
+      //         text: '资源',
+      //         items: [
+      //           { text: '软件', link: '/resource/software/' },
+      //           { text: '字体', link: '/resource/font/' },
+      //           { text: '图标', link: '/resource/icon/' },
+      //         ]
+      //       },
+      //       {
+      //         text: '文档',
+      //         items: [
+      //           { text: '文档', link: '/docs/' },
+      //         ]
+      //       },
+      //       {
+      //         text: '关于',
+      //         items: [
+      //           { text: '关于攀哥', link: '/about/me.md' },
+      //           { text: '关于本站', link: '/about/website.md' },
+      //           { text: '关于捐助', link: '/about/contribution.md' },
+      //           { text: '贡献指南', link: '/about/contribution-guide.html' },
+      //           { text: '错误反馈', link: '/about/error-feedback.html' },
+      //           { text: '版权协议', link: '/about/copyright.html' },
+      //           { text: '隐私政策', link: '/about/privacy.html' },
+      //           { text: '更新日志', link: '/about/logs.html' },
+      //           { text: '友情链接', link: '/about/link.html' },
+      //         ]
+      //       },
+      //     ]
+      //   },
+      // ]
     },
     
     // 侧边目录层级
